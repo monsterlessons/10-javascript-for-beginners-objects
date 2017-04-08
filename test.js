@@ -1,11 +1,10 @@
-var name = 'Mike'
+// var i = 1
+//
+// while (i < 5) {
+//   document.write('A statement has run')
+//   i++
+// }
 
-if (name == 'Alex') {
-  document.write('My name is Alex')
-} else if (name == 'Mike') {
-  document.write('My name is Mike')
-} else if (name == 'John') {
-  document.write('My name is John') {    
-} else {
-  document.write('My name is not Alex')
+for (var i = 1; i < 5; i++) {
+  document.write('A statement has run')
 }
