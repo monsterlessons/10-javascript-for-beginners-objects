@@ -1,9 +1,16 @@
-var name = 'Alex'
+var name1 = 'Alex'
+var name2 = 'John'
 
-function getName () {
-  var otherName = 'John'
-}
+// var names = ['Alex', 'John']
+//
+// names[1] = 'Mike'
+//
+// document.write(names[0])
+// document.write(names[1])
 
-getName()
+var names = []
+names[0] = 'Alex'
+names[1] = 'John'
+names[2] = 'Mike'
 
-document.write(otherName)
+document.write(names[2])
