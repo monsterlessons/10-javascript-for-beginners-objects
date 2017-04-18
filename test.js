@@ -1,16 +1,12 @@
-var name1 = 'Alex'
-var name2 = 'John'
+var orc = {
+  color: 'green',
+  height: 5,
+  weight: 180,
+  attack: function () {
+    document.write('Orc attacks!')
+  }
+}
 
-// var names = ['Alex', 'John']
-//
-// names[1] = 'Mike'
-//
-// document.write(names[0])
-// document.write(names[1])
+orc.color = 'black'
 
-var names = []
-names[0] = 'Alex'
-names[1] = 'John'
-names[2] = 'Mike'
-
-document.write(names[2])
+document.write(orc.color)
